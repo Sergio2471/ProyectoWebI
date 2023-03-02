@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Formularios</title>
+</head>
+<body>
+    <h1>Ejemplo Formularios</h1>
+
+    <form action="">
+
+        <fieldset>
+        <legend>Datos Personales</legend>
+        <label>Cedula</label>
+        <input type="number" autofocus placeholder="Numero Cedula" min="1000" max="10000"><br>
+        Nombre
+        <input type="text" required size="25" readonly value="CECAR"><br>
+
+        Contraseña
+        <input type="password"><br>
+        </fieldset>
+
+        Fecha de Nacimiento
+        <input type="date"><br>
+
+        Fecha Consulta
+        <input type="datetime-local"><br>
+
+        Hora de Nacimiento
+        <input type="time"><br>
+
+        Sexo <br>
+        <input type="radio" name="sexo"> Hombre <br>
+        <input type="radio" name="sexo"> Mujer <br>
+
+        Deportes que Practica <br>
+        <input type="checkbox"> Futbol <br>
+        <input type="checkbox"> Basket <br>
+        <input type="checkbox"> Rugby <br>
+        <input type="checkbox"> Tennis <br>
+
+        Subir Taller
+        <input type="file"><br>
+
+        Correo Electronico
+        <input type="email"><br>
+
+        Profesió
+        <select name="" id="">
+            <option>Selecione una Opcion</option>
+            <option value="IS">Ingenieria de Sistemas</option>
+            <option value="II">Ingenenieria Indistrial</option>
+            <option value="AQ">Arquitectura</option>
+            <option value="DI">Diseño Industrial</option>
+        </select><br>
+
+        Comentame algo de ti <br>
+        <textarea name="" id="" cols="30" rows="10"></textarea><br>
+
+        <input type="button" value="Guardar Cambios"><br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpiar Formulario">
+        
+
+    </form>
+
+
+</body>
+</html>
