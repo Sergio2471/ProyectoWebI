@@ -1,0 +1,27 @@
+/* body {
+    background-color:rgb(255, 240, 240);
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+} */
+
+.coloruno{
+    background-color: #ae1325;
+}
+
+.colordos{
+    background-color: #f72332;
+}
+
+.colortres{
+    background-color: #412688;
+}
+
+.encabezado{
+    text-align: center;
+    font-size: 60px;
+    background-color: #ae1325;
+    color: white;
+}
