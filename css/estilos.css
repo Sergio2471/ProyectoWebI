@@ -1,3 +1,9 @@
+:root{
+    --rojo : #ae1325;
+    --naranja : #f72332;
+    --azul : #412688;
+}
+
 /* body {
     background-color:rgb(255, 240, 240);
 }
@@ -5,18 +11,40 @@
 h1 {
     text-align: center;
     font-size: 60px;
-} */
+} 
 
+h1, p {
+    text-align: center;
+}
+
+p {
+    color: black;
+} 
+
+* {
+    margin: 0;
+}*/
+
+
+body {
+    background-color: var(--naranja);
+}
+
+h1 {
+    margin-top: 0;
+}
+
+/* Clases */
 .coloruno{
-    background-color: #ae1325;
+    background-color: var(--rojo)
 }
 
 .colordos{
-    background-color: #f72332;
+    background-color: var(--naranja)
 }
 
 .colortres{
-    background-color: #412688;
+    background-color: var(--azul)
 }
 
 .encabezado{
@@ -24,4 +52,67 @@ h1 {
     font-size: 60px;
     background-color: #ae1325;
     color: white;
+}
+
+.flexContenedor {
+    display: flex;
+    
+}
+
+.divizquierdo {
+    width: 40%;
+    background-color: var(--naranja);
+    
+}
+
+.divderecho {
+    width: 50%;
+    background-color: var(--azul);
+    text-align: center;
+    height: 600px;
+}
+
+.tipoLetraUno {
+    font-size: 20px;
+    color: white;
+}
+
+.tipoLetraDos {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.negrilla {
+    font-weight: bold;
+}
+
+.boton{
+    background-color: var(--naranja);
+    font-size: 20px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+.botondis{
+    background-color: #5966f3;
+    font-size: 20px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+.border:hover {
+    
 }
