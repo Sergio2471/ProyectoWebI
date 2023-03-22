@@ -1,0 +1,49 @@
+:root {
+    --auzl: blue;
+    --morado: violet;
+    --rojo: red;
+}
+
+h1 {
+    text-align: center;
+    color: var(--auzl);
+} 
+
+.flexcontenedor {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div_1 {
+    width: 50%;
+}
+
+.div_2 {
+    width: 40%;
+}
+
+.flex {
+    display: flex;
+}
+
+.hijo_1 {
+    width: 40%;
+}
+
+.hijo_2 {
+    width: 60%;
+}
+
+.flex_2 {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.div_3{
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    text-align: center;
+    
+}
