@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo JS</title>
+    <script src="../js/utilidades.js"></script>
+</head>
+
+<body>
+
+    <script>
+
+        var h1 = crearElemtoConTexto("h1", "Tutorial WEB");
+        var h2FronEnd = crearElemtoConTexto("h2", "Front End");
+        var h2Noticias = crearElemtoConTexto("h2", "Noticias");
+
+        var ul = crearElemto("ul");
+        var liUno = crearElemtoConTexto("li", "Frameworks")
+        var liDos = crearElemtoConTexto("li", "Librerias")
+        var liTres = crearElemtoConTexto("li", "Ultimas Noticias")
+
+        var imagen = crearImagen("../recursos/imagenes/discord.png")
+
+        adicionarHijo(ul,liUno);
+        adicionarHijo(ul,liDos);
+        adicionarHijo(ul,liTres)
+
+        adicionarABody(h1);
+        adicionarABody(h2FronEnd);
+        adicionarABody(h2Noticias);
+        adicionarABody(ul);
+        adicionarABody(imagen);
+
+    </script>
+
+</body>
+
+</html>
